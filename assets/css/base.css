@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --blue_color:#0a4181;
+  --blue_bg:#347cce;
+  --primary_color: #0a6dd4;
+}
+body{
+
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+.text-bold{
+  font-weight: bold;
+}

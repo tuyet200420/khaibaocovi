@@ -1,0 +1,128 @@
+.header_box{
+  position: relative;
+  padding: 5px;
+  background-image: url(../imgs/banner_vi_01945\ \(5\).png);
+  background-size: contain;
+  border-radius: 0 0 10px 10px;
+}
+.header_container{
+  background-color: #0a6dd4;
+}
+.header_box::before{
+  content: "";
+    background-color: #0a6dd4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: -1;
+}
+.header_box_left{
+  display: flex;
+}
+.heading-title>div{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.heading-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-left{
+  position: relative;
+}
+.footer-left::after{
+    content: "";
+    position: absolute;
+    background: #f0f0f070;
+    width: 2px;
+    height: 100%;
+    right: 0;
+}
+.footer.padding-TB{
+  padding: 60px 0;
+}
+.footer{
+  background-color: #6b6b6b;
+  color: white;
+  font-weight: bold;
+}
+.panel-title{
+  margin-bottom: 15px;
+}
+.nav-item{
+  position: relative;
+}
+.nav-item::after{
+  content: "";
+  width: 0;
+  opacity: 0;
+  height: 2px;
+  position: absolute;
+  background-color: #0a6dd4;
+  top: 100%;
+  left: 0;
+  transition: .3s;
+  
+}
+.nav-item:hover::after{
+  width: 100%;
+  opacity: 1;
+  transition: .3s;
+}
+.register-translation-top{
+  margin-bottom: 10px;
+  background-color: #33C6F8;
+  border-radius: 7px;
+  padding: 20px;
+  position: relative;
+  color: #fff;
+  justify-content: space-between;
+}
+.register-translation .title-translation {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.btn-register,.btn-logout,.btn-submit{
+  border-radius: 30px;
+  color: white;
+}
+.btn-register{
+  background-color: #266BD1;
+}
+.btn-logout{
+  background-color: red;
+  font-size: 14px;
+}
+.register-link{
+  color: #0a0a0b;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+.text-right{
+  text-align: right;
+}
+.national-brand{
+  font-size: 20px;
+}
+.declaration-form{
+  font-size: 16px;
+  margin: 50px 0 80px;
+  padding: 20px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.459);
+}
+.obligatory{
+  color: red;
+}
+form i.load{
+  color: red;
+  margin-left: 30px;
+  margin-right: 30px;
+}
